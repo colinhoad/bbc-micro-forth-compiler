@@ -1,3 +1,3 @@
-# Colin's BBC Micro Stuff
+# FROTH - a BBC BASIC FORTH compiler
 
-This is a holding area for various BBC Micro related code snippets.
+Coming soon.
