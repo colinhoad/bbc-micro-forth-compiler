@@ -4,6 +4,8 @@ This is a manual rekeying of **Jeremy Ruston's** [FORTH](https://en.wikipedia.or
 
 The original copyright to the book and original code is Copyright (c) Jeremy Ruston, December 1983.
 
+I have made several corrections to the original listing, which can be referenced in the [correction](https://github.com/colinhoad/bbc-micro-forth-compiler/listing-correction.png) file.
+
 Below is the introduction to FROTH provided by Jeremy Ruston, starting on page 88 of the book.
 
 ## The FROTH threaded language
