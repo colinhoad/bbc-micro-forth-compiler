@@ -6,9 +6,24 @@ The original copyright to the book and original code is Copyright (c) Jeremy Rus
 
 I have made several corrections to the original listing, which can be referenced in the [correction](https://github.com/colinhoad/bbc-micro-forth-compiler/blob/main/listing-correction.png) file.
 
-Below is the introduction to FROTH provided by Jeremy Ruston, starting on page 88 of the book.
+## Instructions
+
+The **.BAS** file contains a plain text version of the type-in listing for FROTH, inclusive of corrections to ensure it runs. 
+
+The **.BBC** file contains a tokenised version of the listing, but note that due to the use of inline assembler it will not run under BBC BASIC For Windows or SDL.
+
+The **.SSD** file is a disk image that can be run under emulation by issuing the command 
+`CHAIN "FROTH"`
+
+On loading the compiler, you will be taken directly to a FORTH-style command prompt (represented as an arrow in MODE 7). 
+
+You can test FROTH is working by running the following: `2 2 + PRINT CR` which should give a result of 4.
+
+Entering the command `VOCAB` will list all of the known commands available to FROTH (similar to VLIST in FORTH itself).
 
 ## The FROTH threaded language
+
+*Below is the introduction to FROTH provided by Jeremy Ruston, starting on page 88 of the book.*
 
 The language I have chosen to compile in this section is a little like FORTH. FORTH is not quite as useful for general programming as BBC BASIC, but it is extraordinarily easy to compile. The version here is not quite similar enough to FORTH to be called FORTH, so I've taken the liberty of calling it FROTH.
 
